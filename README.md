@@ -32,6 +32,7 @@
 - Handling Outliers etc.
 - Feature Engineering: Normalization of values very much required!
 - Feature Selection: Make sure to include only most relevant features in model
-- Apply Machine Learning in depth: try all models, hyperparameter tuning etc. to find best one 
+- Apply Machine Learning in depth: try all models, hyperparameter tuning etc. to find best one
+- If time: more advanced models that we did not cover yet time-series etc. 
 - If time: Scrape my data from scratch (because it was collected manually before)
 - Thursday, 06.03: Create Presentation
