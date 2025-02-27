@@ -8,7 +8,7 @@
 
 **Title**: need to find short and catchy title for topic
 
-**Question**: What drives other countries to support Russia by voting in line with its interests in the United Nations General Assembly? 
+**Question**: What drives other countries to support Russia by voting in line with its interests in the United Nations General Assembly? (goal is identifying features of countries that support Russia in resolutions)
 
 **Target Variable**: "Pro-Russian Voting Index" calculated based on 36 selected UNGA votes relevant for Russian foreign policiy (Ukraine, Georgia etc.) 
 
