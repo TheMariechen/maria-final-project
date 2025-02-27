@@ -27,6 +27,7 @@
 - United Nations: Member States. https://www.un.org/en/about-us/member-states#gotoV
 
 **Plan**: 
+- Read: "How to avoid machine learning pitfalls: a guide for academic researchers"
 - Descriptive Statistics
 - Visualization Board in Tableau
 - Handling Outliers etc.
