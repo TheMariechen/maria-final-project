@@ -12,7 +12,7 @@
 
 **Target Variable**: "Pro-Russian Voting Index" calculated based on 36 selected UNGA votes relevant for Russian foreign policiy (Ukraine, Georgia etc.) 
 
-**Features** based individual UN members: Russian Official Development Assistance, Bilateral Investment Treaty with Russia, Export and Import Partner Share, Regime Type, Distance between capitals, Comecon membership, Defence Cooperation Agreement, GDP per capita, Organisation member with Russia 
+**Features** based individual UN members: Russian Official Development Assistance, Bilateral Investment Treaty with Russia, Export and Import Partner Share, Regime Type, Distance between capitals, Comecon membership, Defence Cooperation Agreement, GDP per capita, Regional Organisation member with Russia 
 
 **Various Data Sources**: 
 - United Nations Digital Library | Voting Data. https://digitallibrary.un.org/search?ln=en&cc=Voting+Data (target variable)
@@ -34,5 +34,4 @@
 - Feature Selection: Make sure to include only most relevant features in model
 - Apply Machine Learning in depth: try all models, hyperparameter tuning etc. to find best one
 - If time: more advanced models that we did not cover yet time-series etc. 
-- If time: Scrape my data from scratch (because it was collected manually before)
-- Thursday, 06.03: Create Presentation
+- Create Presentation
