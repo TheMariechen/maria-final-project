@@ -35,7 +35,7 @@
 - Feature Selection: Make sure to include only most relevant features in model
 - Apply Machine Learning (regression) in depth: try all models to find best one
 - In addition to regression, try out classification (support: yes/no)
-- Use hyperparameter tuning, cross-validation etc.! 
+- Use hyperparameter tuning, **cross-validation** etc.
 - If time: webscrape additional sources to enrich number of features and/ or webscrape target variable again with additional votes 
 - If time: more advanced models that we did not cover yet time-series etc. (split target variable into different years)
 - Create Presentation (reserve whole last day!)
