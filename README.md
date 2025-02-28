@@ -12,7 +12,7 @@
 
 **Target Variable**: "Pro-Russian Voting Index" calculated based on 36 selected UNGA votes relevant for Russian foreign policiy (Ukraine, Georgia etc.) 
 
-**Features** based individual UN members: Russian Official Development Assistance, Bilateral Investment Treaty with Russia, Export and Import Partner Share, Regime Type, Distance between capitals, Comecon membership, Defence Cooperation Agreement, GDP per capita, Regional Organisation member with Russia 
+**Features** based individual UN members: Russian Official Development Assistance, Bilateral Investment Treaty with Russia, Export and Import Partner Share, Regime Type, Distance between capitals, Comecon membership, Defence Cooperation Agreement, GDP per capita, Regional Organisation member with Russia (mean values are based on target variable 2008-2023) 
 
 **Various Data Sources**: 
 - United Nations Digital Library | Voting Data. https://digitallibrary.un.org/search?ln=en&cc=Voting+Data (target variable)
