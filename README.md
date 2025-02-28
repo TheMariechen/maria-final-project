@@ -4,13 +4,13 @@
 
 **Team**: Maria
 
-**Topic**: Country Voting Alignment with Russia in the United Nations General Assembly (UNGA) 
+**Topic**: Country Voting Alignment with Russia in the United Nations General Assembly (UNGA)
 
 **Title**: need to find short and catchy title for topic
 
 **Question**: What drives other countries to support Russia by voting in line with its interests in the United Nations General Assembly? (goal is identifying features of countries that support Russia in resolutions)
 
-**Target Variable**: "Pro-Russian Voting Index" calculated based on 36 selected UNGA votes relevant for Russian foreign policiy (Ukraine, Georgia etc.) 
+**Target Variable**: "Pro-Russian Voting Index" calculated based on 35 selected UNGA votes relevant for Russian foreign policiy (Ukraine, Georgia etc.) 
 
 **Features** based individual UN members: Russian Official Development Assistance, Bilateral Investment Treaty with Russia, Export and Import Partner Share, Regime Type, Distance between capitals, Comecon membership, Defence Cooperation Agreement, GDP per capita, Regional Organisation member with Russia (mean values are based on target variable 2008-2023) 
 
