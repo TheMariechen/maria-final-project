@@ -6,7 +6,7 @@
 
 **Topic**: Country Voting Alignment with Russia in the United Nations General Assembly (UNGA)
 
-**Title**: need to find short and catchy title for topic
+**Title**: Buying Friends?
 
 **Question**: What drives other countries to support Russia by voting in line with its interests in the United Nations General Assembly? (goal is identifying features of countries that support Russia in resolutions)
 
