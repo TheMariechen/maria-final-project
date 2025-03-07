@@ -12,7 +12,7 @@
 
 **Question**: What drives other countries to support Russia by voting in line with its interests in the United Nations General Assembly? (goal is identifying features of countries that support Russia in resolutions)
 
-**Target Variable**: "Pro-Russian Voting Index" calculated based on 35 selected UNGA votes relevant for Russian foreign policiy (Ukraine, Georgia etc.) 
+**Target Variable**: "Pro-Russian Voting Index" calculated based on 35 selected UNGA votes relevant for Russian foreign policiy (Ukraine, Georgia)
 
 **Features** based individual UN members: Russian Official Development Assistance, Bilateral Investment Treaty with Russia, Export and Import Partner Share, Regime Type, Distance between capitals, Comecon membership, Defence Cooperation Agreement, GDP per capita, Regional Organisation member with Russia (mean values are based on target variable 2008-2023) 
 
@@ -46,6 +46,8 @@ Hypothesis: A country's economic ties and dependencies on Russia are the stronge
 
 Size: 192 rows (UN member states) × 12 columns
 
+Timeframe: 2008-2023
+
 Sources: Self-constructed from various sources (UN voting data, OECD, UNCTAD, etc.)
 
 Target Variable: Pro-Russian Voting Index (continuous values between 0 and 1)
@@ -58,27 +60,9 @@ Index per country calculated as the arithmetic mean
 
 Features
 
-Economic Factors:
+Economic Factors: Mean Russian Aid Amount per Year ($MM), Bilateral Investment Treaty with Russia (0/1), Export and Import Partner Share, GDP per capita ($)
 
-Mean Russian Aid Amount per Year ($MM)
-
-Bilateral Investment Treaty with Russia (0/1)
-
-Export and Import Partner Share
-
-GDP per capita ($)
-
-Other Factors:
-
-Regime Type (democratic/authoritarian)
-
-Distance to Moscow (km)
-
-Comecon Membership (0/1)
-
-Defence Cooperation Agreement with Russia (0/1)
-
-Membership in Regional Organisations with Russia (0/1)
+Other Factors: Regime Type (democratic/authoritarian), Distance to Moscow (km), Comecon Membership (0/1), Defence Cooperation Agreement with Russia (0/1), Membership in Regional Organisations with Russia (0/1)
 
 
 **Data Processing & Feature Engineering**
@@ -93,9 +77,9 @@ Normalisation of features (GDP per capita, distance to Moscow) for distance-base
 
 Feature Selection:
 
-Low correlation with target (< 0.1): Bilateral Investment Treaty, Comecon Membership, Import Partner Share
+Low correlation with target (< 0.1): Dropped Bilateral Investment Treaty, Comecon Membership, Import Partner Share
 
-High correlation among features: Dropped Import Partner Share due to collinearity with Export Partner Share
+High correlation among features:Import Partner Share with Export Partner Share but Import already dropped 
 
 Feature Engineering:
 
@@ -104,47 +88,17 @@ Normalisation of features to improve model performance in distance-based models
 
 **Machine Learning Models & Performance**
 
-Model
+KNN | normal R² = 0.50 | Cross-Validation R² = 0.42
 
-R²
+Linear Regression | normal R² = 0.32 | Cross-Validation R² = 0.28
 
-Cross-Validation R²
+Decision Tree | normal R² = 0.65 | Cross-Validation R² = 0.36
 
-KNN
+Random Forest | normal R² = 0.61 | Cross-Validation R² = 0.56 
 
-0.50
+Ada Boost | normal R² = 0.54 | Cross-Validation R² = 0.53
 
-0.42
-
-Linear Regression
-
-0.32
-
-0.28
-
-Decision Tree
-
-0.65
-
-0.36
-
-Random Forest
-
-0.61
-
-0.56
-
-Ada Boost
-
-0.54
-
-0.53
-
-Gradient Boost
-
-0.46
-
-0.51
+Gradient Boost | normal R² = 0.46 | Cross-Validation R² = 0.51
 
 Best Model: Random Forest (R² = 0.56)
 
@@ -173,17 +127,11 @@ Import/Export Partner Share and Bilateral Investment Treaties were not significa
 
 Defence Cooperation Agreements and Membership in Organisations with Russia showed minimal impact
 
-Hypothesis Confirmation:
+Evidence for Initial Hypothesis:
 
 Economic dependencies, particularly Russian aid, are the strongest predictors of Pro-Russian voting alignment in the UNGA
 
 Economic ties such as import/export partnerships and treaties were not as relevant as direct aid and GDP
-
-Explaining vs. Predicting
-
-The focus of this project is explaining the key features that influence Pro-Russian voting rather than making future predictions.
-
-Since there are no "new" countries joining the UN, the model has limited practical application for predicting voting behaviour beyond changes in country characteristics.
 
 
 **Limitations & Future Work**
@@ -191,6 +139,12 @@ Since there are no "new" countries joining the UN, the model has limited practic
 Dataset Size: The relatively small dataset may limit generalisability
 
 Missing Features: Additional variables could improve predictive power (e.g., military alliances, historical ties, internal political stability)
+
+Explaining vs. Predicting
+
+The focus of this project is explaining the key features that influence Pro-Russian voting rather than making future predictions.
+
+Since there are no "new" countries joining the UN, the model has limited practical application for predicting voting behaviour beyond changes in country characteristics.
 
 Alternative Models:
 
