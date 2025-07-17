@@ -1,4 +1,5 @@
-# Final Iron Hack Project | Buying Friends? 
+# Buying Friends? 
+# Modelling Pro-Russian Voting Behaviour in the UNGA
 
 ## Project Overview
 
