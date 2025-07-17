@@ -1,6 +1,6 @@
-# maria-final-project
+# Final Iron Hack Project | Buying Friends? - Country Voting Alignment with Russia in the United Nations General Assembly (UNGA)
 
-**PROJECT OVERVIEW**
+## PROJECT OVERVIEW
 
 **Description**: Final Iron Hack Machine Learning Project (Data Science End to End)
 
@@ -28,7 +28,7 @@
 - GeoDist Database: http://www.cepii.fr/distance/dist_cepii.dta.
 - United Nations: Member States. https://www.un.org/en/about-us/member-states#gotoV
 
-**PROJECT PRESENTATION** 
+## PROJECT PRESENTATION
 
 Link: https://www.canva.com/design/DAGg-H6A3s4/bXEk58NHn34EchdTY5hEJQ/edit 
 
