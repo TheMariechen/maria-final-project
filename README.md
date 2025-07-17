@@ -1,5 +1,4 @@
-# Buying Friends? 
-# Modelling Pro-Russian Voting Behaviour in the UNGA
+# Buying Friends? Pro-Russian Voting Behaviour in the UNGA
 
 ## Project Overview
 
